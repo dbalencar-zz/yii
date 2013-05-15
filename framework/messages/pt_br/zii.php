@@ -19,7 +19,7 @@ return array (
   'Delete' => 'Excluir',
   'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => 'Exibindo {start}-{end} de 1 resultado.|Exibindo {start}-{end} de {count} resultados.',
   'Either "name" or "value" must be specified for CDataColumn.' => '"name" ou "value" deve ser especificado para CDataColumn.',
-  'Home' => 'Página inicial',
+  'Home' => 'Início',
   'No results found.' => 'Nenhum resultado encontrado.',
   'Not set' => 'Não configurado',
   'Please specify the "attributes" property.' => 'Por favor, especifique a propriedade "attributes".',
