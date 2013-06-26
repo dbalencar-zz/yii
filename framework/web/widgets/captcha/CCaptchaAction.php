@@ -294,8 +294,8 @@ class CCaptchaAction extends CAction
 	 */
 	protected function renderImageImagick($code)
 	{
-		$backColor=$this->transparent ? new ImagickPixel('transparent') : new ImagickPixel('#'.dechex($this->backColor));
-		$foreColor=new ImagickPixel('#'.dechex($this->foreColor));
+		$backColor=$this->transparent ? new ImagickPixel('transparent') : new ImagickPixel(sprintf('#%06x',$this->backColor));
+		$foreColor=new ImagickPixel(sprintf('#%06x',$this->foreColor));
 
 		$image=new Imagick();
 		$image->newImage($this->width,$this->height,$backColor);
